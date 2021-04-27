@@ -5,9 +5,9 @@
     "debug.internalConsoleOptions": "neverOpen",
     "azureFunctions.preDeployTask": "npm prune",
     "azureFunctions.postDeployTask": "npm install",
-    "staticWebApps.appSubpath": "/",
+    "staticWebApps.appSubpath": "app",
     "staticWebApps.apiSubpath": "api",
-    "staticWebApps.outputSubpath": "dist",
+    "staticWebApps.outputSubpath": "build",
     "appService.zipIgnorePattern": [
         "node_modules{,/**}",
         "bin{,/**}",
