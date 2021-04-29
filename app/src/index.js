@@ -30,7 +30,9 @@ class FetchDemo extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             If you login with Github below, I'll say hi :)
-            Oh, I'm triggered.
+            Oh, I'm triggered...
+            So triggered.
+            
           </p>
           <a className="App-link" href="/login"> Login with Github </a>
           <a className="App-link" href="/logout"> Logout</a>
